@@ -1,0 +1,61 @@
+=> O que são Clients?
+
+Programação WEB
+
+    Client - dispositivo que consome a informação na internet
+        "informação" - arquivos HTML, CSS, JavaScript, imagens (arquivos estáticos)
+        navegador gera o cache => arquivo armazenado na máquina client
+
+Diferentes resoluções a depender do dispositivo:
+=> design responsivo x responsividade
+
+Diferentes navegadores para consumo das informações
+    => atendimento a boas práticas - compatibilidade
+
+Navegadores 
+=> programas que interpretam os arquivos que vem dos servidores Web (HTML, CSS, JavaScript, imagens)
+    - padrão para navegadores é o W3C - definição de padrão para essas instruções,porém existem particularidades entre os diferentes navegadores
+        w3schools
+
+Aplicações WEB 
+=> "serviços" acessados via navegador que buscam e retornam informações via internet - exemplo facebook-página, twitter-página, youtube-página
+
+Sobre servidores
+=> existem servidores locais, acessíveis através de LANs
+=> máquinas robustas, com alta capacidade de processamento
+
+    Servidores de: arquivos, segurança (firewall), streaming, e-mail,m Web
+        - datacenters
+
+requisição HTTP => Sistema Operacional do Servidor => Servidor WEB processa a requisição e retorna com a "resposta"
+
+    - Servidor proxy - barreira entre a rede interna e a internet, restringido acesso a sites indesejados
+    - Firewall (sistema que pode funcionar como servidor) - barreira entre a internet e a rede interna
+    - Web Server - servidor com os arquivos da páginas (HTML e etc) que disponibiliza a página para o client
+    - E-mail server - 
+    - Database server - 
+    - Servidor DNS (DOmain Name Service) - servidos que "traduz" o endereço www dos sites para o IP
+
+Hospedagem de sites
+
+=> servidores para hospedar os arquivos referentes ao site (contratado ou próprio)
+    - regsitro o domínio e aponto o servidor DNS. O servidor DNS será definido pelo serviço de hospedagem do site
+
+    - conexão FTP (File Transfer Protocol) envio dos arquivos do site - o provedor passa o usuário e senha para tal conexão (diferente do www)
+    - necessário um programa para a conexão e envio dos arquivos de configuração do site
+
+Linguagens de programação
+
+=> linguagem escrita e formal que especifica um conjunto de instruções e regras pra gerar programas
+
+    server-side = C#, PHP, Ruby, JavaScript, Java
+    client-side = JavaScript (atualmente o mais popular e com uma curva de aprendizado mais acessível)
+        - navegadores rodam HTLM, CSS e JavaScript
+
+        - os navegadores possuem uma engine (módulo - Chrome é o V8(OpenSourve)) que realiza a interpretação/processamento do JavaScript
+        - nodeJS "programa" para interpretação/processamento do JavaScript no servidor (baseado em V8)
+
+    HTML - não é uma linguagem de programação e sim um arquivo de marcação
+        - arquivo de texto com delimitadores interpretados pelos navegadores
+        - cada nome destes delimitadores tem comportamentos específicos
+           

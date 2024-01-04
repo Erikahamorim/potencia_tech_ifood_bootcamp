@@ -1,0 +1,63 @@
+    => instalar e configurar um ambiente de desenvolvimento.
+    => criar uma página HTML
+
+CSS "formata" o item descrito no HTML.
+
+<html>
+    <head>
+        #informações pré-carregadas antes da exibição para o usuário
+        <title>Título da página</title> #nome que aparece na aba do navegador
+    </head> 
+    <body>
+        #aparece para o usuário
+    </body>
+</html>
+
+=> Algumas tags não possuem o fechamento
+
+=> Atributos das tags (genéricos e específicos)
+    - id - identificador para uso no JavaScript
+    - style - aponta comandos direto nos elementos do html
+    - class - classifica/padroniza os itens para o class
+    - strong - negrito
+    - i - itálico
+    - u - sublinhado
+    - mark - marca texto
+    - sup - supracitado
+
+    - input - gera um campo "digitável"
+        - type - number, text
+    - img tag que precisa do atributo src para carregar uma imagem
+        - width - tamanho da imagem
+
+Textos - tipografia html
+    => tags específicas 
+        - hs - header/cabeçalho/títulos
+        
+        - p - parágrafo
+
+        - blockquote - citação
+
+Listas Ordenadas e Não Ordenadas
+    => tags
+        - ol (tag pai - ordenated list)
+            - li (list item)
+        - ul (tag pai - desordenada)
+            - li
+
+Links
+    => tags
+        - a - âncora/linkar => <a href="endereço do site/link"> texto_do_link </a>
+            - abrir o link em uma nova aba target= _self(abre na mesma aba) _blank(abre em uma nova aba)
+            - title="texto_do_balão_link" - informação que aparece ao passar o mouse sobre o link
+            - href:"nome_do_arquivo_na_mesma_pasta_do_VSCode"
+
+Trabalhando com formulários HTML
+
+    => tag <form name="nome_do_form_para_resgate_no_JS" method="GET/POST" autocomplete="on/off(loggin salvo)" target="gestão_de_abas_no_envio_do_form" action="para_onde_vai_a_informação/servidor"> </form>
+        - trecho com campos para o usuário inserir informações
+            - Chave: <input type="" name="" /><br>
+
+    Atributos do formulários   
+
+    =>13m30s
